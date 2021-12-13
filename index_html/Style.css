@@ -1,0 +1,174 @@
+html {/*structure of the web page*/
+	padding-top:0px;
+	padding-left:50px;
+	padding-right:50px;
+	margin-top:-30px; /*this pulls the navigation bar up or down*/
+	background-color:LightBlue;
+	
+}
+/*Body is the entire page*/
+#body {
+	background: url('blue-white-gradient-abstract-background_53876-62183.jpg');
+
+	background-size:cover;
+	border:0px solid black;
+	padding-left:0px;
+	padding-right:0px;
+	box-sizing:border-box;
+	font-family: 'Montserrat Alternates', sans-serif;
+	
+}
+#navigation{
+	background-color:black;
+	
+	
+	
+}	
+
+
+/*unordered navigation menu bar*/
+ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+	
+
+	
+	
+	
+	
+   /* margin-block-end: 1em;*/
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+	/*background-size:100%;*/
+	
+	
+}
+/*menu bar style sheet*/
+ul li{
+	float:left;
+	width:200px;
+	height:40px;
+	background-color:black;
+	opacity:.9;
+	line-height:40px;
+	text-align:center;
+	font-size:15px;
+	/*margin-right:70px;*/
+	margin: 21px; /*this splits the navigation bar with spaces between*/
+	box-sizing:border-box;
+	margin-bottom:-1px; /*this reduces or increases the space below the navigation bars*/
+	margin-left:0px;
+	
+	
+	
+	
+}
+
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}	
+
+ul li a:hover{
+	background-color:lightblue;
+	animation: myGlowAnimation;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+	
+}	
+
+ul li ul li{
+		display:none;
+		margin-top:0px;
+		/*margin-right:-10px;*/
+}	
+
+ul li:hover ul li{
+	display:block;
+	
+	
+	
+}	
+
+
+ul a:active{
+color:Orange;
+background-color:grey;
+}
+
+@keyframes myGlowAnimation{
+	50% {text-shadow:0px 0px 20px blue;}
+	
+}
+
+#topic0 {
+	color:DarkRed;
+	font-size:20px;
+	margin:5px;
+	text-align:left;	
+}
+
+#types {
+		color:DarkRed;
+}	
+
+/*wrapper to align text area in the body of browser*/
+#content {
+	padding-left:50px;
+	padding-right:50px;
+	font-size:15px;
+
+}
+#dyslexia {
+	text-decoration:none;
+
+}
+ 
+#dyscalculia{
+	text-decoration:none;
+}
+
+#dysgraphia{
+		text-decoration:none;
+}
+#dyspraxia {
+		text-decoration:none;
+	
+}
+
+#dysphasia {
+		text-decoration:none;
+}
+
+#adhd {
+		text-decoration:none;
+}	
+
+#others {
+		text-decoration:none;
+}
+
+	
+/*footer description and structure*/
+#footer {
+	background-color:black;
+	position:relative;
+	height:30px;
+	margin-bottom:0px;
+	color:white;
+	clear:both;
+	
+}
+/*footer color*/
+#footer a { 
+color:white;
+}
+#footer a:visited { 
+color: grey; 
+}
